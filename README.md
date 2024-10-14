@@ -16,19 +16,6 @@ The repository for my very cool website, made with HTML, CSS, and JavaScript.
 - **Interactive Elements**: Includes interactive elements built with JavaScript.
 - **Modern Styling**: Uses modern CSS techniques for styling.
 
-## Getting Started
-To run this project locally:
-
-1. Clone the repository:
-    ```sh
-    git clone https://github.com/om3ga6400/om3ga6400.github.io.git
-    ```
-2. Navigate to the project directory:
-    ```sh
-    cd om3ga6400.github.io
-    ```
-3. Open `index.html` in your browser to view the website.
-
 ## Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
