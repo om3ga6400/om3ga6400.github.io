@@ -1,0 +1,14 @@
+{
+  "particles": {
+    "size": {
+      "value": 1.5
+    },
+    "line_linked": {
+      "enable": true
+    },
+    "move": {
+      "enable": true,
+      "speed": 2
+    }
+  }
+}
