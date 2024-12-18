@@ -3,7 +3,7 @@ tsParticles.load("tsparticles", {
     size: {
       value: 1,
     },
-    line_linked: {
+    links: {
       enable: true,
     },
     move: {
