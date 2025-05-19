@@ -1,38 +1,33 @@
 .cards-container {
   display: grid;
-  padding: 0.7vw;
+  padding: 0.5vw;
   gap: 0.5vw;
   grid-template-columns: repeat(auto-fill, minmax(11vw, 1fr));
   z-index: 1;
 }
 
 .rating-card {
-  background-color: rgba(49, 50, 68, 0.5); /* Mocha Surface0 with opacity */
+  background-color: rgba(49, 50, 68, 0.5);
+  /* Mocha Surface0 with opacity */
   border-radius: 0.5vw;
   padding: 0.75vw;
   width: 10vw;
   backdrop-filter: blur(0.25vw);
-  transition: transform 0.2s;
 }
 
 .rating-card:hover {
-  transform: translateY(-0.20vw);
+  transform: translateY(-0.25vw);
 }
 
 .album-cover {
   width: 10vw;
   height: 10vw;
   border-radius: 0.20vw;
-  margin-bottom: 0.25vw;
-  background: #11111b; /* Mocha Crust */
   transition: opacity 0.2s;
 }
 
-.album-cover:hover {
-  opacity: 0.9;
-}
-
-.artist, .album {
+.artist,
+.album {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -43,25 +38,23 @@
   font-weight: bold;
 }
 
-.artist {
-  font-size: 0.75vw;
-}
-
+.artist,
 .details {
   font-size: 0.75vw;
-  color: #bac2de; /* Mocha Subtext 1 */
+  color: #bac2de;
+  /* Mocha Subtext 1 */
 }
 
 .rating {
   font-size: 1.15vw;
   font-weight: bold;
-  margin: 0.45vw 0;
+  margin: 0.45vw;
 }
 
 .rating-bar {
   height: 0.15vw;
-  background: #11111b; /* Mocha Crust */
-  border-radius: 0.05vw;
+  background: #11111b;
+  /* Mocha Crust */
   overflow: hidden;
 }
 
