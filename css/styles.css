@@ -5,12 +5,15 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  color: #cdd6f4; /* Mocha Text */|
+  color: #cdd6f4;
+  /* Mocha Text */
   overflow-y: auto;
-}
+  font-size: 1.25vw;
+}  
 
 body {
-  background-color: #1e1e2e; /* Mocha Base */
+  background-color: #1e1e2e;
+  /* Mocha Base */
   overflow: hidden;
   min-height: 100vh;
   display: flex;
@@ -18,7 +21,8 @@ body {
 }
 
 .nav {
-  background-color: rgba(17, 17, 27, 0.5); /* Mocha Crust with opacity */
+  background-color: rgba(17, 17, 27, 0.5);
+  /* Mocha Crust with opacity */
   padding: 1.5vw;
   text-align: right;
   backdrop-filter: blur(0.25vw);
@@ -30,8 +34,8 @@ body {
 }
 
 a {
-  font-size: 1.25vw;
-  color: #89b4fa; /* Mocha Blue */
+  color: #89b4fa;
+  /* Mocha Blue */
   text-decoration: none;
   font-weight: bold;
 }
