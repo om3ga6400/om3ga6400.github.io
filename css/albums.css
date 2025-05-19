@@ -1,7 +1,7 @@
 .cards-container {
   display: grid;
-  padding: 0.5vw;
-  gap: 0.5vw;
+  padding: 1vw;
+  gap: 1vw;
   grid-template-columns: repeat(auto-fill, minmax(11vw, 1fr));
   z-index: 1;
 }
