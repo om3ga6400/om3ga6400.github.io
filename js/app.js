@@ -11,13 +11,13 @@
           value: 1
         },
         color: {
-          value: "#cba6f7"
+          value: "#f5e0dc"
         },
         links: {
           enable: true,
           distance: 100,
           opacity: 0.25,
-          color: "#cba6f7"
+          color: "#f5e0dc"
         },
         move: {
           enable: true,
