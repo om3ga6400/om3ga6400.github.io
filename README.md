@@ -4,5 +4,4 @@ Bad website
 
 ## Credits
 
-- [Catppuccin Palette](https://catppuccin.com/palette/)
-- [Beautifier.io](https://beautifier.io)
+-	[Catppuccin Palette](https://catppuccin.com/palette/)

@@ -1,32 +1,32 @@
 html, body {
-  height: 100%;
-  margin: 0;
+	height: 100%;
+	margin: 0;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 h1 {
-  font-size: 15vw;
-  margin: -2vw;
+	font-size: 15vw;
+	margin: -2vw;
 }
 
 p {
-  font-size: 1.75vw;
-  margin: 0;
+	font-size: 1.75vw;
+	margin: 0;
 }
 
 a {
-  margin: 0.5vw;
+	margin: 0.5vw;
 }
