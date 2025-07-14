@@ -8,7 +8,7 @@
   color: #cdd6f4;
   /* Mocha Text */
   overflow-y: auto;
-  font-size: 1.25vw;
+  font-size: 0.75vw;
 }  
 
 body {
@@ -23,14 +23,14 @@ body {
 .nav {
   background-color: rgba(17, 17, 27, 0.5);
   /* Mocha Crust with opacity */
-  padding: 0.5vw;
+  padding: 0.25vw;
   text-align: right;
   backdrop-filter: blur(0.25vw);
   z-index: 1;
 }
 
 .nav a {
-  margin: 1vw;
+  margin: 0.25vw;
 }
 
 a {
@@ -45,7 +45,7 @@ a:hover {
 }
 
 h1 {
-  font-size: 7.5vw;
+  font-size: 5vw;
 }
 
 #tsparticles {

@@ -5,7 +5,7 @@
     options: {
       particles: {
         number: {
-          value: 80
+          value: 150
         },
         size: {
           value: 1
@@ -15,13 +15,13 @@
         },
         links: {
           enable: true,
-          distance: 100,
+          distance: 150,
           opacity: 0.25,
           color: "#f5c2e7"
         },
         move: {
           enable: true,
-          speed: 1.5,
+          speed: 1.75,
           outModes: "bounce"
         }
       }
