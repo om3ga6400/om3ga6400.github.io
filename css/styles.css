@@ -48,6 +48,13 @@ h1 {
 	font-size: 5vw;
 }
 
+footer {
+	background: none;
+	margin-top: auto;
+	padding: 1vw;
+	z-index: 1;
+}
+
 #tsparticles {
 	z-index: -1;
 }
