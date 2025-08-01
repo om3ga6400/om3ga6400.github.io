@@ -10,13 +10,6 @@ body {
   align-items: center;
 }
 
-.nav {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-}
-
 h1 {
   font-size: 15vw;
   margin: -2vw;
