@@ -6,6 +6,9 @@ Really bad site im making
 <div><a href="https://catppuccin.com/palette/">Catppuccin theme</a></div>
 <div><a href="https://www.cloudflare.com/">CloudFlare</a></div>
 <div><a href="https://www.name.com/">Name.com</a></div>
+<div><a href="https://www.jsdelivr.com/package/npm/tsparticles">jsdelivr</a></div>
+<div><a href="https://github.com/tsparticles/tsparticles/">tsparticles</a></div>
+
 
 ## Info
 
