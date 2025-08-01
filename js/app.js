@@ -4,7 +4,7 @@
     id: "tsparticles",
     options: {
       particles: {
-        number: {value: 100},
+        number: {value: 125},
         size: {value: 1},
         color: {value: "#f5c2e7"},
         links: {enable: true, distance: 125, opacity: 0.25, color: "#f5c2e7"},
