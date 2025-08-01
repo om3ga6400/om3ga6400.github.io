@@ -1,60 +1,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat');
 
 * {
-	font-family: "Montserrat", sans-serif;
-	margin: 0;
-	padding: 0;
-	text-align: center;
-	color: #cdd6f4;
-	/* Mocha Text */
-	overflow-y: auto;
-	font-size: 1.25vw;
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #cdd6f4;
+  /* Mocha Text */
+  overflow-y: auto;
+  font-size: 1.25vw;
 }  
 
 body {
-	background-color: #1e1e2e;
-	/* Mocha Base */
-	overflow: hidden;
-	min-height: 100vh;
-	display: flex;
-	flex-direction: column;
+  background-color: #1e1e2e;
+  /* Mocha Base */
+  overflow: hidden;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .nav {
-	background-color: rgba(17, 17, 27, 0.5);
-	/* Mocha Crust with opacity */
-	padding: 0.5vw;
-	text-align: right;
-	backdrop-filter: blur(0.25vw);
-	z-index: 1;
+  background-color: rgba(17, 17, 27, 0.5);
+  /* Mocha Crust with opacity */
+  padding: 0.5vw;
+  text-align: right;
+  backdrop-filter: blur(0.25vw);
+  z-index: 1;
 }
 
 .nav a {
-	margin: 0.5vw;
+  margin: 0.5vw;
 }
 
 a {
-	color: #89b4fa;
-	/* Mocha Blue */
-	text-decoration: none;
-	font-weight: bold;
+  color: #89b4fa;
+  /* Mocha Blue */
+  text-decoration: none;
+  font-weight: bold;
 }
 
 a:hover {
-	text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1 {
-	font-size: 5vw;
+  font-size: 5vw;
 }
 
 footer {
-	background: none;
-	margin-top: auto;
-	padding: 1vw;
-	z-index: 1;
+  background: none;
+  margin-top: auto;
+  padding: 1vw;
+  z-index: 1;
 }
 
 #tsparticles {
-	z-index: -1;
+  z-index: -1;
 }
