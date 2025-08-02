@@ -6,7 +6,7 @@
   text-align: center;
   color: #cdd6f4;
   /* Mocha Text */
-  font-size: 1.25vw;
+  font-size: 25px;
 }
 
 body {
@@ -20,14 +20,14 @@ body {
 .nav {
   background-color: rgba(17, 17, 27, 0.5);
   /* Mocha Crust with opacity */
-  padding: 0.5vw;
+  padding: 5px;
   text-align: right;
-  backdrop-filter: blur(0.25vw);
+  backdrop-filter: blur(0.25px);
   z-index: 1;
 }
 
 .nav a {
-  margin: 0.5vw;
+  margin: 5px;
 }
 
 a {
@@ -48,7 +48,7 @@ h1 {
 footer {
   background: none;
   margin-top: auto;
-  padding: 1vw;
+  padding: 5px;
   z-index: 1;
 }
 
