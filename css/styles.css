@@ -17,19 +17,6 @@ body {
   flex-direction: column;
 }
 
-.nav {
-  background-color: rgba(17, 17, 27, 0.5);
-  /* Mocha Crust with opacity */
-  padding: 5px;
-  text-align: right;
-  backdrop-filter: blur(0.25px);
-  z-index: 1;
-}
-
-.nav a {
-  margin: 5px;
-}
-
 a {
   color: #89b4fa;
   /* Mocha Blue */
@@ -43,13 +30,6 @@ a:hover {
 
 h1 {
   font-size: 100px;
-}
-
-footer {
-  background: none;
-  margin-top: auto;
-  padding: 5px;
-  z-index: 1;
 }
 
 #tsparticles {
