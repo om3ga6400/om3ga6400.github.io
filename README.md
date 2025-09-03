@@ -1,5 +1,5 @@
 # om3ga6400.github.io
-Really bad site im making
+bad site
 
 ## Credits
 
