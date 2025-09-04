@@ -68,10 +68,6 @@
   /* Mocha Text */
 }
 
-body {
-  background-color: #1e1e2e;
-}
-
 a {
   color: #89b4fa;
   /* Mocha Blue */
@@ -83,5 +79,10 @@ a:hover {
 }
 
 #tsparticles {
-  z-index: -1;
+  z-index: 0 !important;
+  position: fixed;
+}
+
+* {
+  z-index: 1;
 }
