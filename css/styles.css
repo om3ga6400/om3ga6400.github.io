@@ -64,8 +64,13 @@
 
 * {
   font-family: 'Euclid Flex', sans-serif;
+  z-index: 1;
   color: #cdd6f4;
   /* Mocha Text */
+}
+
+body {
+  background-color: #1e1e2e;
 }
 
 a {
@@ -81,8 +86,4 @@ a:hover {
 #tsparticles {
   z-index: 0 !important;
   position: fixed;
-}
-
-* {
-  z-index: 1;
 }
