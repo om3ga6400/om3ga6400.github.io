@@ -1,5 +1,5 @@
 # om3ga6400.github.io
-bad site
+site
 
 ## Credits
 
@@ -8,8 +8,3 @@ bad site
 <a href="https://www.name.com/">Name.com</a>
 <a href="https://www.jsdelivr.com/package/npm/tsparticles">jsdelivr</a>
 <a href="https://github.com/tsparticles/tsparticles/">tsparticles</a>
-
-
-## Info
-
-i have no idea what im doing
