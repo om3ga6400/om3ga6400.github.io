@@ -1,21 +1,91 @@
 /* Euclid Flex */
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexUltraLight.ttf') format('truetype'); font-weight: 100; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexUltraLightItalic.ttf') format('truetype'); font-weight: 100; font-style: italic; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexThin.ttf') format('truetype'); font-weight: 200; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexThinItalic.ttf') format('truetype'); font-weight: 200; font-style: italic; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexLight.ttf') format('truetype'); font-weight: 300; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexLightItalic.ttf') format('truetype'); font-weight: 300; font-style: italic; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexRegular.ttf') format('truetype'); font-weight: 400; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexItalic.ttf') format('truetype'); font-weight: 400; font-style: italic; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexMedium.ttf') format('truetype'); font-weight: 500; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexMediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexSemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexSemiBoldItalic.ttf') format('truetype'); font-weight: 600; font-style: italic; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexBold.ttf') format('truetype'); font-weight: 700; font-style: normal; }
-@font-face { font-family: 'Euclid Flex'; src: url('/fonts/EuclidFlexBoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic; }
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexUltraLight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexUltraLightItalic.ttf") format("truetype");
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexThin.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexThinItalic.ttf") format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexLight.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexLightItalic.ttf") format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexRegular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexItalic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexMedium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexMediumItalic.ttf") format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexSemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexSemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexBold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Euclid Flex";
+  src: url("/fonts/EuclidFlexBoldItalic.ttf") format("truetype");
+  font-weight: 700;
+  font-style: italic;
+}
 
 * {
-  font-family: 'Euclid Flex', sans-serif;
+  font-family: "Euclid Flex", sans-serif;
   z-index: 1;
   color: #cdd6f4;
   /* Mocha Text */
@@ -23,18 +93,40 @@
 
 body {
   background-color: #1e1e2e;
-  min-height: 100%;
+  min-height: 100vh;
   margin: 0;
+  overflow: hidden;
 }
 
 a {
-  color: #89b4fa;
+  color: #cba6f7;
   /* Mocha Blue */
   text-decoration: none;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+nav a,
+b {
+  margin: 0 10px;
+}
+
+nav b {
+  color: #89b4fa;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  backdrop-filter: blur(3px);
+  padding: 7.5px;
+  text-align: right;
+  box-sizing: border-box;
+  border-bottom: 3px solid #89b4fa;
 }
 
 #tsparticles {

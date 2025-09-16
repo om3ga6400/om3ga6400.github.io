@@ -5,10 +5,10 @@ body {
 h1 {
   font-weight: 400;
   font-size: 100px;
-  margin-top: 0;
 }
 
-a {
+a,
+b {
   font-weight: 300;
   font-size: 25px;
 }

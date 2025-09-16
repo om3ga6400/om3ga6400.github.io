@@ -6,9 +6,9 @@
       particles: {
         number: {value: 125},
         size: {value: 1},
-        color: {value: "#f5c2e7"},
-        links: {enable: true, distance: 100, opacity: 0.25, color: "#f5c2e7"},
-        move: {enable: true, speed: 0.75, outModes: "bounce"}
+        color: {value: "#cba6f7"},
+        links: {enable: true, distance: 100, opacity: 0.25, color: "#cba6f7"},
+        move: {enable: true, speed: 0.75, outModes: "bounce" }
       }
     }
   });
