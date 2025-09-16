@@ -3,14 +3,13 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
   text-align: center;
 }
 
 h1 {
   font-size: 250px;
-  margin: -50px 0;
   font-weight: 200;
+  margin-bottom: -50px;
 }
 
 p {
