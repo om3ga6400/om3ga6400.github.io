@@ -136,11 +136,11 @@ nav {
   left: 0;
   width: 100vw;
   backdrop-filter: blur(2px);
-  padding: 7.5px;
+  padding: 10px;
   text-align: right;
   box-sizing: border-box;
   border-bottom: 3px solid #89b4fa;
-  background-color: rgb(24, 24, 37, 0.5);
+  background-color: rgb(24, 24, 37, 0.25);
 }
 
 #tsparticles {
