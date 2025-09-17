@@ -101,6 +101,7 @@
   font-family: "Euclid Flex", sans-serif;
   color: #cdd6f4;
   /* Mocha Text */
+  z-index: 1;
 }
 
 body {
@@ -143,6 +144,6 @@ nav {
 }
 
 #tsparticles {
-  z-index: 0;
+  z-index: -1 !important;
   position: fixed;
 }
