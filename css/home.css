@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 100px;
+}
+
+a,
+b {
+  font-weight: 300;
+  font-size: 25px;
+}
