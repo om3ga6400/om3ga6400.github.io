@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 15rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+a {
+  font-size: 1.5rem;
+  color: #89b4fa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
