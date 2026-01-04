@@ -12,6 +12,7 @@ body {
 
 h1 {
   font-size: 15rem;
+  margin-bottom: -3rem;
 }
 
 h2 {
@@ -20,7 +21,7 @@ h2 {
 
 a {
   font-size: 1.5rem;
-  color: #89b4fa;
+  color: var(--blue);
   text-decoration: none;
 }
 

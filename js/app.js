@@ -8,7 +8,7 @@
         size: { value: 1 },
         color: { value: "#cba6f7" },
         links: { enable: true, distance: 115, opacity: 0.25, color: "#cba6f7" },
-        move: { enable: true, speed: 1.25, outModes: "bounce" },
+        move: { enable: true, speed: 1, outModes: "bounce" },
       },
     },
   });
