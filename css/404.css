@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 15rem;
+  margin-bottom: -3rem;
+}
+
+p {
+  color: var(--subtext1);
+  font-size: 1.75rem;
+}
+
+a {
+  color: var(--blue);
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

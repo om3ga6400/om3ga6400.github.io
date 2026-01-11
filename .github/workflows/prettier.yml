@@ -1,0 +1,21 @@
+name: Prettier
+
+on: push
+
+permissions:
+  contents: write
+
+jobs:
+  format:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npm install -g prettier@next
+      - run: prettier --write "**/*" --ignore-unknown
+      - run: |
+          git config user.name "om3ga6400"
+          git config user.email "om3ga6400.dev@gmail.com"
+          git add .
+          git commit -m "Prettified Code!" || true
+          git push
