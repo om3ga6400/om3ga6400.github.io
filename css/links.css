@@ -2,12 +2,11 @@ div.links-container {
   backdrop-filter: blur(2rem);
   border: 0.1rem solid var(--mauve);
   border-radius: 0.25rem;
-  left: 50%;
+  margin: 1rem auto;
+  max-width: fit-content;
   padding: 0.5rem;
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
 }
+
 
 div.links-container a {
   backdrop-filter: blur(2rem);
