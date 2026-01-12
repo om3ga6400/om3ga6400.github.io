@@ -7,7 +7,6 @@ div.links-container {
   padding: 0.5rem;
 }
 
-
 div.links-container a {
   backdrop-filter: blur(2rem);
   background: var(--surface0);
