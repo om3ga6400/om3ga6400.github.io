@@ -1,6 +1,6 @@
 div.links-container {
-  backdrop-filter: blur(2rem);
-  border: 0.1rem solid var(--mauve);
+  backdrop-filter: blur(2px);
+  border: 0.15rem solid var(--mauve);
   border-radius: 0.25rem;
   left: 50%;
   padding: 0.5rem;
@@ -10,7 +10,6 @@ div.links-container {
 }
 
 div.links-container a {
-  backdrop-filter: blur(2rem);
   background: var(--surface0);
   border-radius: 0.25rem;
   color: var(--text);
