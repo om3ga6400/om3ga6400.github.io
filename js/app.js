@@ -4,11 +4,11 @@
     id: "tsparticles",
     options: {
       particles: {
-        number: { value: 125 },
+        number: { value: 75 },
         size: { value: 1 },
         color: { value: "#cba6f7" },
-        links: { enable: true, distance: 100, opacity: 0.75, color: "#cba6f7" },
-        move: { enable: true, speed: 0.75, outModes: "bounce" },
+        links: { enable: true, distance: 100, opacity: 0.5, color: "#cba6f7" },
+        move: { enable: true, speed: 0.5, outModes: "bounce" },
       },
     },
   });
