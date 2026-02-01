@@ -1,0 +1,35 @@
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem auto 2rem;
+  max-width: 900px;
+}
+
+.project-card {
+  backdrop-filter: blur(2px);
+  border: 0.15rem solid var(--mauve);
+  border-radius: 0.25rem;
+  display: block;
+  flex: 1 1 15rem;
+  max-width: 17.5rem;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+.project-card:hover {
+  border-color: var(--blue);
+  color: var(--blue);
+}
+
+.project-card h2 {
+  color: var(--lavender);
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: var(--subtext1);
+  font-size: 1rem;
+}
