@@ -1,4 +1,5 @@
 nav {
+  align-self: stretch;
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
   border-radius: 0.25rem;

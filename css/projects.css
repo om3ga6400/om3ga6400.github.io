@@ -1,15 +1,29 @@
-.projects-container {
+body {
   display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  justify-content: center;
-  margin: 1rem auto 2rem;
-  max-width: 900px;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
 }
 
-.project-card {
+.projects-container {
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
+  border-radius: 0.25rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  margin: auto;
+  padding: 1rem;
+  width: max-content;
+}
+
+.projects-container h1 {
+  grid-column: 1 / -1;
+  margin-bottom: 0.5rem;
+}
+
+.projects-container a {
+  background: var(--surface0);
   border-radius: 0.25rem;
   display: block;
   flex: 1 1 15rem;
@@ -18,18 +32,23 @@
   text-decoration: none;
 }
 
-.project-card:hover {
-  border-color: var(--blue);
+.projects-container a:hover {
+  background: var(--surface1);
   color: var(--blue);
 }
 
-.project-card h2 {
+.projects-container a:hover h2 {
   color: var(--lavender);
+  text-decoration: underline;
+}
+
+.projects-container a h2 {
+  color: var(--text);
   font-size: 1.25rem;
   margin-bottom: 0.5rem;
 }
 
-.project-card p {
+.projects-container a p {
   color: var(--subtext1);
   font-size: 1rem;
 }
