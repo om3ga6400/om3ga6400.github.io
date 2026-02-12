@@ -15,6 +15,7 @@ body {
   margin: auto;
   padding: 1rem;
   width: max-content;
+  box-shadow: 0 0 2rem var(--crust);
 }
 
 .links-container h1 {

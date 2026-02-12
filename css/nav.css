@@ -6,6 +6,7 @@ nav {
   margin: 1rem;
   padding: 0.75rem;
   text-align: right;
+  box-shadow: 0 0 2rem var(--crust);
 }
 
 nav a {
