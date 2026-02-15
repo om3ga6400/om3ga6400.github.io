@@ -50,7 +50,8 @@ a {
   text-decoration: none;
 }
 
-a:hover {
+a:hover,
+.card a:hover h2 {
   color: var(--blue);
 }
 
@@ -81,7 +82,6 @@ a:hover {
 .card a:hover {
   background: var(--surface1);
 }
-
 #tsparticles {
   height: 125vh;
   left: -12.5vw;
