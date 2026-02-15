@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Google+Sans");
+@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex");
 
 :root {
   --rosewater: #f5e0dc;
@@ -32,7 +32,7 @@
 * {
   color: var(--text);
   text-shadow: 0 0 2rem var(--crust);
-  font-family: "Google Sans", sans-serif;
+  font-family: "Google Sans Flex", sans-serif;
   margin: 0;
   text-align: center;
 }
