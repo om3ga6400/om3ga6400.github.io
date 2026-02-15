@@ -5,7 +5,7 @@
     options: {
       fullScreen: { enable: false },
       particles: {
-        number: { value: 115 },
+        number: { value: 110 },
         size: { value: 1 },
         color: { value: "#cba6f7" },
         links: { enable: true, distance: 100, opacity: 0.5, color: "#cba6f7" },
