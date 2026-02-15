@@ -1,40 +1,9 @@
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  min-height: 100vh;
-}
-
-.links-container {
-  backdrop-filter: blur(2px);
-  border: 0.15rem solid var(--mauve);
-  border-radius: 0.25rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-  margin: auto;
-  padding: 1rem;
-  width: max-content;
-  box-shadow: 0 0 2rem var(--crust);
-}
-
-.links-container h1 {
-  grid-column: 1 / -1;
-  margin-bottom: 0.5rem;
-}
-
-.links-container a {
-  background: var(--surface0);
-  border-radius: 0.25rem;
+.card a {
   color: var(--text);
-  display: block;
   font-size: 1.25rem;
   padding: 0.5rem;
-  text-decoration: none;
 }
 
-.links-container a:hover {
-  background: var(--surface1);
-  color: var(--blue);
+.card a:hover {
   text-decoration: underline;
 }
