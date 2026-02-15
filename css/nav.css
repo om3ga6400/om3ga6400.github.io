@@ -10,13 +10,6 @@ nav {
 }
 
 nav a {
-  color: var(--text);
   font-weight: bold;
   margin: 0 0.5rem;
-  text-decoration: none;
-}
-
-nav a:hover {
-  color: var(--blue);
-  text-decoration: underline;
 }

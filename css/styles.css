@@ -46,6 +46,14 @@ body {
   overflow: hidden;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--blue);
+}
+
 .card {
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
@@ -68,12 +76,10 @@ body {
   background: var(--surface0);
   border-radius: 0.25rem;
   display: block;
-  text-decoration: none;
 }
 
 .card a:hover {
   background: var(--surface1);
-  color: var(--blue);
 }
 
 #tsparticles {
