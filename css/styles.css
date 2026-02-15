@@ -39,9 +39,14 @@
 
 body {
   background: var(--base);
+  overflow: hidden;
 }
 
 #tsparticles {
   position: fixed;
   z-index: -1;
+  top: -12.5vh;
+  left: -12.5vw;
+  width: 125vw;
+  height: 125vh;
 }
