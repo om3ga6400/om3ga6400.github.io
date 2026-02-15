@@ -31,10 +31,10 @@
 
 * {
   color: var(--text);
-  text-shadow: 0 0 2rem var(--crust);
   font-family: "Google Sans Flex", sans-serif;
   margin: 0;
   text-align: center;
+  text-shadow: 0 0 2rem var(--crust);
 }
 
 body {
@@ -58,13 +58,13 @@ a:hover {
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
   border-radius: 0.25rem;
+  box-shadow: 0 0 2rem var(--crust);
   display: grid;
-  grid-template-columns: 1fr 1fr;
   gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
   margin: auto;
   padding: 1rem;
   width: max-content;
-  box-shadow: 0 0 2rem var(--crust);
 }
 
 .card h1 {
@@ -83,10 +83,10 @@ a:hover {
 }
 
 #tsparticles {
-  position: fixed;
-  z-index: -1;
-  top: -12.5vh;
-  left: -12.5vw;
-  width: 125vw;
   height: 125vh;
+  left: -12.5vw;
+  position: fixed;
+  top: -12.5vh;
+  width: 125vw;
+  z-index: -1;
 }
