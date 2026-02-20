@@ -3,20 +3,18 @@ body {
 }
 
 h1 {
-  font-size: 15rem;
-  margin-bottom: -3rem;
+  font-size: 8rem;
+  line-height: 1;
+  color: var(--mauve);
 }
 
-p {
+.subtitle {
   color: var(--subtext1);
-  font-size: 1.75rem;
-}
-
-a {
-  color: var(--blue);
   font-size: 1.5rem;
 }
 
-a:hover {
-  text-decoration: underline;
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.75rem;
 }

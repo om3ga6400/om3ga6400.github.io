@@ -34,7 +34,6 @@
   font-family: "Google Sans Flex", sans-serif;
   margin: 0;
   text-align: center;
-  text-shadow: 0 0 2rem var(--crust);
 }
 
 body {
@@ -60,13 +59,14 @@ a:hover,
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
   border-radius: 0.25rem;
-  box-shadow: 0 0 2rem var(--crust);
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: 1fr 1fr;
   margin: auto;
   padding: 1rem;
   width: max-content;
+}
+.grid {
+  grid-template-columns: 1fr 1fr;
 }
 
 .card h1 {
@@ -83,6 +83,7 @@ a:hover,
 .card a:hover {
   background: var(--surface1);
 }
+
 #tsparticles {
   height: 125vh;
   left: -12.5vw;
