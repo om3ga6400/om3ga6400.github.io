@@ -3,13 +3,11 @@ nav {
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
   border-radius: 0.25rem;
-  box-shadow: 0 0 2rem var(--crust);
   margin: 1rem;
   padding: 0.75rem;
   text-align: right;
 }
 
 nav a {
-  font-weight: bold;
   margin: 0 0.5rem;
 }
