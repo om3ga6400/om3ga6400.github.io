@@ -1,4 +1,51 @@
-@import url("https://fonts.googleapis.com/css2?family=Google+Sans+Flex");
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/bam/woff2/BasicallyAMono-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
 
 :root {
   --rosewater: #f5e0dc;
@@ -31,7 +78,7 @@
 
 * {
   color: var(--text);
-  font-family: "Google Sans Flex", sans-serif;
+  font-family: "BasicallyAMono", monospace;
   margin: 0;
   text-align: center;
 }
@@ -59,14 +106,15 @@ a:hover,
   backdrop-filter: blur(2px);
   border: 0.15rem solid var(--mauve);
   border-radius: 0.25rem;
-  display: grid;
-  gap: 0.5rem;
   margin: auto;
   padding: 1rem;
   width: max-content;
 }
+
 .grid {
   grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
+  display: grid;
 }
 
 .card h1 {
@@ -85,9 +133,9 @@ a:hover,
 }
 
 #tsparticles {
+  position: fixed;
   height: 125vh;
   left: -12.5vw;
-  position: fixed;
   top: -12.5vh;
   width: 125vw;
   z-index: -1;

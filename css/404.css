@@ -4,17 +4,17 @@ body {
 
 h1 {
   font-size: 8rem;
-  line-height: 1;
   color: var(--mauve);
+  line-height: 0.75;
 }
 
-.subtitle {
+p {
   color: var(--subtext1);
   font-size: 1.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
-.buttons {
-  display: flex;
-  gap: 1rem;
-  margin-top: 0.75rem;
+.card a {
+  padding: 0.75rem;
 }
