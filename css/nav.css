@@ -1,11 +1,11 @@
 nav {
   align-self: stretch;
-  backdrop-filter: blur(2px);
-  border: 0.15rem solid var(--mauve);
-  border-radius: 0.25rem;
   margin: 1rem;
   padding: 0.75rem;
   text-align: right;
+  backdrop-filter: blur(2px);
+  border: 0.15rem solid var(--mauve);
+  border-radius: 0.25rem;
 }
 
 nav a {

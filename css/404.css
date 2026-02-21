@@ -3,18 +3,18 @@ body {
 }
 
 h1 {
-  color: var(--mauve);
-  line-height: 0.75;
   font-size: 8rem;
+  line-height: 0.75;
+  color: var(--mauve);
 }
 
 p {
-  color: var(--subtext1);
-  font-size: 1.5rem;
   margin: 1.5rem 0;
+  font-size: 1.5rem;
+  color: var(--subtext1);
 }
 
 .card a {
-  font-size: 1.25rem;
   padding: 0.75rem;
+  font-size: 1.25rem;
 }

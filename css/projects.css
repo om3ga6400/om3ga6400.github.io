@@ -7,6 +7,6 @@
 }
 
 .card p {
-  color: var(--subtext1);
   font-size: 1rem;
+  color: var(--subtext1);
 }
