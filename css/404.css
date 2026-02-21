@@ -3,9 +3,9 @@ body {
 }
 
 h1 {
-  font-size: 8rem;
   color: var(--mauve);
   line-height: 0.75;
+  font-size: 8rem;
 }
 
 p {
@@ -15,5 +15,6 @@ p {
 }
 
 .card a {
+  font-size: 1.25rem;
   padding: 0.75rem;
 }
