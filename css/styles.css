@@ -32,6 +32,10 @@
 * {
   margin: 0;
   font-family: "BasicallyASansSerif", monospace;
+  font-feature-settings:
+    "ss01" 1,
+    "ss02" 1,
+    "ss03" 1;
   color: var(--text);
   text-align: center;
 }
