@@ -53,39 +53,8 @@ a {
   text-decoration: none;
 }
 
-a:hover,
-.card a:hover h2,
-.card a:hover p {
+a:hover {
   color: var(--blue);
-}
-
-.card {
-  margin: auto;
-  padding: 1rem;
-  width: max-content;
-  backdrop-filter: blur(2px);
-  border: 0.15rem solid var(--mauve);
-  border-radius: 0.25rem;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 0.5rem;
-}
-
-.card h1 {
-  margin-bottom: 1rem;
-}
-
-.card a {
-  display: block;
-  background: var(--surface0);
-  border-radius: 0.25rem;
-}
-
-.card a:hover {
-  background: var(--surface1);
 }
 
 #tsparticles {
