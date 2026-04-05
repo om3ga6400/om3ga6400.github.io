@@ -2,14 +2,14 @@ body {
   justify-content: center;
 }
 
-h1 {
+h2 {
   font-size: 8rem;
   line-height: 0.75;
   color: var(--mauve);
 }
 
 p {
-  margin: 1.5rem 0;
+  margin: 1.75rem 0;
   font-size: 1.5rem;
   color: var(--subtext1);
 }
