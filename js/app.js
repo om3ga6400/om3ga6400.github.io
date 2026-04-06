@@ -5,7 +5,10 @@
     options: {
       fullScreen: { enable: false },
       particles: {
-        number: { value: 115 },
+        number: {
+          value: 115,
+          density: { enable: true, area: 800 },
+        },
         size: { value: 1 },
         color: { value: "#cba6f7" },
         links: { enable: true, distance: 100, opacity: 0.5, color: "#cba6f7" },
