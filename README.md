@@ -27,3 +27,5 @@
 ### Libraries
 
 [TSParticles](https://particles.js.org)
+
+[The New CSS Reset](https://github.com/elad2412/the-new-css-reset)

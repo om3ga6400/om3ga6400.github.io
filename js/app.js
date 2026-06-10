@@ -6,10 +6,10 @@
       fullScreen: { enable: false },
       particles: {
         number: {
-          value: 115,
-          density: { enable: true, area: 800 },
+          value: 100,
+          density: { enable: true, area: 500 },
         },
-        size: { value: 1.5 },
+        size: { value: 1 },
         paint: {
           fill: {
             enable: true,
