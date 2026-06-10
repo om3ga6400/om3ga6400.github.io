@@ -17,3 +17,5 @@
 [TSParticles](https://particles.js.org)
 
 [Prettier](https://prettier.io/)
+
+[BasicallyAMono](https://github.com/mental-design/basically-a-mono)

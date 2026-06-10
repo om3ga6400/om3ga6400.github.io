@@ -1,3 +1,5 @@
+/*BasicallyASansSerif*/
+
 @font-face {
   font-family: "BasicallyASansSerif";
   src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Thin.woff2") format("woff2");
@@ -66,6 +68,64 @@
   font-family: "BasicallyASansSerif";
   src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Thick.woff2") format("woff2");
   font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*BasicallyAMono*/
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyAMono";
+  src: url("/fonts/bam-vers1_301/woff2/BasicallyAMono-Bold.woff2") format("woff2");
+  font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
