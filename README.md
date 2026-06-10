@@ -2,20 +2,28 @@
 
 ## Credits
 
+### Palettes
+
 [Catppuccin](https://catppuccin.com/)
+
+### Tools
 
 [Figma](https://www.figma.com/)
 
 [SVG Viewer](https://www.svgviewer.dev/)
 
-[BasicallyASansSerif](https://github.com/mental-design/basically-a-sans-serif)
-
 [pfp.lgbt](https://pfp.lgbt/)
 
 [Photopea](https://www.photopea.com/)
 
-[TSParticles](https://particles.js.org)
-
 [Prettier](https://prettier.io/)
 
-[BasicallyAMono](https://github.com/mental-design/basically-a-mono)
+### Fonts
+
+[Basically A Sans Serif](https://github.com/mental-design/basically-a-sans-serif)
+
+[Basically A Mono](https://github.com/mental-design/basically-a-mono)
+
+### Libraries
+
+[TSParticles](https://particles.js.org)
