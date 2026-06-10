@@ -1,0 +1,74 @@
+/*https://cdn.jsdelivr.net/npm/@catppuccin/palette@latest/css/catppuccin.css*/
+
+@import url("/css/fonts.css");
+
+:root {
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "BasicallyASansSerif", sans-serif;
+  font-feature-settings:
+    "ss01" 1,
+    "ss02" 1,
+    "ss03" 1;
+}
+
+body {
+  background: var(--base);
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.links-container {
+  border: 0.15rem solid var(--surface2);
+  border-radius: 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  width: max-content;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.links-container a {
+  border: 0.15rem solid var(--surface2);
+  color: var(--text);
+  text-decoration: none;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+}
+
+.links-container a:hover {
+  background: var(--surface2);
+}

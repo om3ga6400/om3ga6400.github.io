@@ -1,0 +1,71 @@
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-ExtraLight.woff2") format("woff2");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BasicallyASansSerif";
+  src: url("/fonts/bass-vers2_000/woff2/BasicallyASansSerif-Thick.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
