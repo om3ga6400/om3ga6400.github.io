@@ -13,3 +13,7 @@
 [pfp.lgbt](https://pfp.lgbt/)
 
 [Photopea](https://www.photopea.com/)
+
+[TSParticles](https://particles.js.org)
+
+[Prettier](https://prettier.io/)
