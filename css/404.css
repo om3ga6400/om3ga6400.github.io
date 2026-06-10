@@ -1,0 +1,19 @@
+h1 {
+  font-size: 10rem;
+  margin-top: -1rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 2rem;
+}
+
+.links a {
+  width: 100%;
+  box-sizing: border-box;
+}
