@@ -86,6 +86,14 @@ a {
   background: var(--surface2);
 }
 
+.projects a {
+  padding: 2.5rem;
+}
+
+.current {
+  border: 0.15rem solid var(--mauve);
+}
+
 #tsparticles {
   position: fixed;
   top: -12.5vh;
