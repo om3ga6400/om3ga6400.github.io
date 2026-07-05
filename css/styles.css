@@ -58,6 +58,10 @@ a {
   border-radius: 0.5rem;
 }
 
+p {
+  padding-bottom: 1rem;
+}
+
 .card {
   backdrop-filter: blur(3px);
   border: 0.15rem solid var(--surface2);
@@ -77,21 +81,22 @@ a {
   gap: 1rem;
 }
 
+.links > a:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
 .links.nav {
   grid-auto-flow: column;
   grid-auto-columns: 1fr;
 }
 
 .links a:hover {
-  background: var(--surface2);
+  border: 0.15rem solid var(--mauve);
 }
 
 .projects a {
   padding: 2.5rem;
-}
-
-.current {
-  border: 0.15rem solid var(--mauve);
 }
 
 #tsparticles {
