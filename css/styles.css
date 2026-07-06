@@ -81,7 +81,7 @@ p {
   gap: 1rem;
 }
 
-.links > a:last-child:nth-child(odd) {
+.links:not(.nav) > a:last-child:nth-child(odd) {
   grid-column: 1 / -1;
   justify-self: center;
 }
