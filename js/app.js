@@ -11,10 +11,8 @@
         },
         size: { value: 1 },
         paint: {
-          fill: {
-            enable: true,
-            color: { value: "#cba6f7" },
-          },
+          color: { value: "#cba6f7" },
+          fill: { enable: true },
         },
         links: { enable: true, distance: 125, opacity: 0.5, color: "#cba6f7" },
         move: { enable: true, speed: 0.5 },
