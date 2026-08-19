@@ -1,16 +1,18 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["config:recommended"],
-  "regexManagers": [
+  "customManagers": [
     {
-      "fileMatch": ["\\.html$"],
+      "customType": "regex",
+      "managerFilePatterns": ["/\\.html$/"],
       "matchStrings": [
         "https://cdn\\.jsdelivr\\.net/npm/(?<depName>[^@/]+)@(?<currentValue>[^/\"']+)"
       ],
       "datasourceTemplate": "npm"
     },
     {
-      "fileMatch": ["\\.html$"],
+      "customType": "regex",
+      "managerFilePatterns": ["/\\.html$/"],
       "matchStrings": [
         "https://unpkg\\.com/(?<depName>[^@/]+)@(?<currentValue>[^/\"']+)"
       ],
