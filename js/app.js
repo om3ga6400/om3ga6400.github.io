@@ -10,10 +10,7 @@
           density: { enable: true, area: 500 },
         },
         size: { value: 1 },
-        paint: {
-          color: { value: "#cba6f7" },
-          fill: { enable: true },
-        },
+        color: { value: "#cba6f7" },
         links: { enable: true, distance: 125, opacity: 0.5, color: "#cba6f7" },
         move: { enable: true, speed: 0.5 },
       },
