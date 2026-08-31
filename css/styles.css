@@ -1,0 +1,109 @@
+/*https://cdn.jsdelivr.net/npm/@catppuccin/palette@latest/css/catppuccin.css*/
+
+@import url("/css/fonts.css");
+
+:root {
+  --rosewater: #f5e0dc;
+  --flamingo: #f2cdcd;
+  --pink: #f5c2e7;
+  --mauve: #cba6f7;
+  --red: #f38ba8;
+  --maroon: #eba0ac;
+  --peach: #fab387;
+  --yellow: #f9e2af;
+  --green: #a6e3a1;
+  --teal: #94e2d5;
+  --sky: #89dceb;
+  --sapphire: #74c7ec;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --text: #cdd6f4;
+  --subtext1: #bac2de;
+  --subtext0: #a6adc8;
+  --overlay2: #9399b2;
+  --overlay1: #7f849c;
+  --overlay0: #6c7086;
+  --surface2: #585b70;
+  --surface1: #45475a;
+  --surface0: #313244;
+  --base: #1e1e2e;
+  --mantle: #181825;
+  --crust: #11111b;
+}
+
+* {
+  font-family: "BasicallyASansSerif", sans-serif;
+  color: var(--text);
+  margin: 0;
+  text-align: center;
+  font-feature-settings:
+    "ss01" 1,
+    "ss02" 1,
+    "ss03" 1;
+}
+
+body {
+  background: var(--base);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+a {
+  font-size: 1.5vw;
+  padding: 0.5vw;
+  text-decoration: none;
+  border: 0.15vw solid var(--surface2);
+  border-radius: 0.5vw;
+}
+
+p {
+  padding-bottom: 1vw;
+}
+
+.card {
+  backdrop-filter: blur(3px);
+  border: 0.15vw solid var(--surface2);
+  border-radius: 0.5vw;
+  width: max-content;
+  display: grid;
+  padding: 1vw;
+  margin: auto;
+}
+
+.nav {
+  margin: 1vw;
+}
+
+.links {
+  grid-template-columns: 1fr 1fr;
+  gap: 1vw;
+}
+
+.links:not(.nav) > a:last-child:nth-child(odd) {
+  grid-column: 1 / -1;
+  justify-self: center;
+}
+
+.links.nav {
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+}
+
+.links a:hover {
+  border: 0.15vw solid var(--mauve);
+}
+
+.projects a {
+  padding: 2.5vw;
+}
+
+#tsparticles {
+  position: fixed;
+  top: -12.5vh;
+  left: -12.5vw;
+  width: 125vw;
+  height: 125vh;
+  z-index: -1;
+}
