@@ -7,6 +7,7 @@
       particles: {
         number: {
           value: 125,
+          density: { enable: true, area: 500 },
         },
         size: { value: 1 },
         paint: {
