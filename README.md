@@ -18,6 +18,8 @@
 
 [Prettier](https://prettier.io/)
 
+[jsDelivr](https://www.jsdelivr.com/)
+
 ### Templates
 
 [commitlint](https://commitlint.js.org)
