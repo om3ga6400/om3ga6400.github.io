@@ -6,7 +6,7 @@
       fullScreen: { enable: false },
       particles: {
         number: {
-          value: 125,
+          value: 150,
           density: { enable: true, area: 500 },
         },
         size: { value: 1 },
