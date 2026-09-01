@@ -6,7 +6,7 @@
       fullScreen: { enable: false },
       particles: {
         number: {
-          value: 100,
+          value: 150,
         },
         size: { value: 1 },
         paint: {
