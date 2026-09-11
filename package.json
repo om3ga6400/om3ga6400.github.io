@@ -14,5 +14,11 @@
   "dependencies": {
     "astro": "^7.3.2",
     "trianglify": "github:om3ga6400/trianglify"
+  },
+  "devDependencies": {
+    "@types/trianglify": "^4.1.2"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true
   }
 }
