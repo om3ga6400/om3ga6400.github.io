@@ -1,0 +1,132 @@
+<html>
+  <head>
+    <link rel="icon" href="/assets/site-icon.png" />
+    <style>
+      @import url("/css/fonts.css");
+
+      :root {
+        --glass-bg: rgba(255, 255, 255, 0.08);
+        --glass-bg-hover: rgba(255, 255, 255, 0.14);
+        --glass-bg-soft: rgba(255, 255, 255, 0.06);
+        --glass-border: rgba(255, 255, 255, 0.2);
+        --glass-border-soft: rgba(255, 255, 255, 0.15);
+        --glass-border-hover: rgba(255, 255, 255, 0.3);
+        --glass-blur-card: blur(20px);
+        --glass-blur-link: blur(12px);
+        --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+        --radius-card: 1rem;
+        --radius-inner: 0.5rem;
+        --text: rgba(255, 255, 255, 0.75);
+        --background-dim: rgba(0, 0, 0, 0.25);
+      }
+
+      * {
+        margin: 0;
+        color: var(--text);
+        text-align: center;
+        font-family: "BasicallyASansSerif", sans-serif;
+        font-feature-settings:
+          "ss01" 1,
+          "ss02" 1,
+          "ss03" 1;
+      }
+
+      body {
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        width: max-content;
+        padding: 1rem;
+        margin: auto;
+        border: 0.1rem solid var(--glass-border);
+        border-radius: var(--radius-card);
+        background: var(--glass-bg);
+        backdrop-filter: var(--glass-blur-card);
+        backdrop-filter: var(--glass-blur-card);
+        box-shadow: var(--glass-shadow);
+      }
+
+      .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      a {
+        padding: 0.4rem;
+        text-decoration: none;
+        border: 0.1rem solid var(--glass-border-soft);
+        border-radius: var(--radius-inner);
+        background: var(--glass-bg-soft);
+        backdrop-filter: var(--glass-blur-link);
+        backdrop-filter: var(--glass-blur-link);
+      }
+
+      a:hover {
+        background: var(--glass-bg-hover);
+        border-color: var(--glass-border-hover);
+      }
+
+      #background {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+      }
+
+      #background::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: var(--background-dim);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background"></div>
+    <script>
+      import trianglify from "trianglify";
+
+      const render = () => {
+        const bg = document.getElementById("background");
+        const pattern = trianglify({
+          width: window.innerWidth,
+          height: window.innerHeight,
+        });
+        const canvas = document.createElement("canvas");
+        bg.replaceChildren(pattern.toCanvas(canvas));
+      };
+
+      render();
+      window.addEventListener("resize", render);
+    </script>
+    <div class="card">
+      <div class="links">
+        <a href="https://discord.com/users/1232072032590758069/">Discord</a>
+        <a href="mailto:om3ga6400@proton.me">Email</a>
+        <a href="https://www.albumoftheyear.org/user/om3ga6400/">AOTY</a>
+        <a href="https://anilist.co/user/om3ga6400/">AniList</a>
+        <a href="https://backloggd.com/u/om3ga6400/">Backloggd</a>
+        <a href="https://vndb.org/u332204/">VNDB</a>
+        <a href="https://letterboxd.com/om3ga6400/">Letterboxd</a>
+        <a href="https://www.serializd.com/user/om3ga6400/">Serializd</a>
+        <a href="https://www.goodreads.com/user/show/203212065">Goodreads</a>
+        <a href="https://stats.fm/user/om3ga6400/">Stats.fm</a>
+        <a href="https://www.last.fm/user/om3ga6400-/">Last.fm</a>
+        <a href="https://bandcamp.com/om3ga6400/">Bandcamp</a>
+        <a href="https://harshdomer.bandcamp.com/">Bandcamp</a>
+        <a href="https://github.com/om3ga6400/">Github</a>
+        <a href="https://steamcommunity.com/id/om3ga6400/">Steam</a>
+        <a href="https://www.youtube.com/@om3ga6400/">YouTube</a>
+        <a href="https://x.com/om3ga6400/">Twitter</a>
+        <a href="https://open.spotify.com/user/317acg6cjueru456j7s6tsnejlle/">Spotify</a>
+        <a href="https://www.roblox.com/users/3072560295/profile/">Roblox</a>
+        <a href="https://monkeytype.com/profile/om3ga6400/">Monkeytype</a>
+      </div>
+    </div>
+  </body>
+</html>
