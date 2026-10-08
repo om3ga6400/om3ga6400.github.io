@@ -1,12 +1,9 @@
-# om3ga6400.github.io
+# Credits
 
-
-## Credits
-
-### Tools
+#### Tools
 - [Node.js](https://nodejs.org)
 - [Astro](https://astro.build)
 - [Trianglify](https://github.com/om3ga6400/trianglify)
 
-### Fonts
+#### Fonts
 - [Basically A Sans Serif](https://github.com/mental-design/basically-a-sans-serif)
