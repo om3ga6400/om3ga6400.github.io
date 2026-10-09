@@ -1,0 +1,114 @@
+<html>
+  <head>
+    <link rel="icon" href="/assets/site-icon.png" />
+    <style is:global>
+      @import url("/css/fonts.css");
+
+      :root {
+        --glass-bg: rgba(255, 255, 255, 0.08);
+        --glass-bg-hover: rgba(255, 255, 255, 0.14);
+        --glass-bg-soft: rgba(255, 255, 255, 0.06);
+        --glass-border: rgba(255, 255, 255, 0.2);
+        --glass-border-soft: rgba(255, 255, 255, 0.15);
+        --glass-border-hover: rgba(255, 255, 255, 0.3);
+        --glass-blur-card: blur(20px);
+        --glass-blur-link: blur(12px);
+        --glass-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+        --radius-card: 1rem;
+        --radius-inner: 0.5rem;
+        --text: rgba(255, 255, 255, 0.75);
+        --background-dim: rgba(0, 0, 0, 0.25);
+      }
+
+      * {
+        margin: 0;
+        color: var(--text);
+        text-align: center;
+        font-family: "BasicallyASansSerif", sans-serif;
+        font-feature-settings:
+          "ss01" 1,
+          "ss02" 1,
+          "ss03" 1;
+      }
+
+      body {
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .card {
+        width: max-content;
+        padding: 1rem;
+        margin: auto;
+        border: 0.1rem solid var(--glass-border);
+        border-radius: var(--radius-card);
+        background: var(--glass-bg);
+        backdrop-filter: var(--glass-blur-card);
+        box-shadow: var(--glass-shadow);
+      }
+
+      .links {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+      }
+
+      a {
+        padding: 0.4rem;
+        text-decoration: none;
+        border: 0.1rem solid var(--glass-border-soft);
+        border-radius: var(--radius-inner);
+        background: var(--glass-bg-soft);
+        backdrop-filter: var(--glass-blur-link);
+        backdrop-filter: var(--glass-blur-link);
+      }
+
+      a:hover {
+        background: var(--glass-bg-hover);
+        border-color: var(--glass-border-hover);
+      }
+
+      #background {
+        position: fixed;
+        inset: 0;
+        z-index: -1;
+      }
+
+      #background::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        background: var(--background-dim);
+      }
+    </style>
+  </head>
+  <body>
+    <div id="background"></div>
+    <script>
+      import trianglify from "trianglify";
+
+      const bg = document.getElementById("background")!;
+      const seed = crypto.randomUUID();
+
+      const render = () => {
+        const pattern = trianglify({
+          width: window.innerWidth,
+          height: window.innerHeight,
+          seed,
+        });
+
+        const canvas = document.createElement("canvas");
+        bg.replaceChildren(pattern.toCanvas(canvas));
+      };
+
+      render();
+      window.addEventListener("resize", render);
+    </script>
+    <div class="card">
+      <slot />
+    </div>
+  </body>
+</html>
