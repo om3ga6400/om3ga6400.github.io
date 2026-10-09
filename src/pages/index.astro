@@ -91,12 +91,16 @@
     <script>
       import trianglify from "trianglify";
 
+      const bg = document.getElementById("background")!;
+      const seed = crypto.randomUUID();
+
       const render = () => {
-        const bg = document.getElementById("background")!;
         const pattern = trianglify({
           width: window.innerWidth,
           height: window.innerHeight,
+          seed,
         });
+
         const canvas = document.createElement("canvas");
         bg.replaceChildren(pattern.toCanvas(canvas));
       };

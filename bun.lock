@@ -470,7 +470,7 @@
 
     "tinyglobby": ["tinyglobby@0.2.17", "", { "dependencies": { "fdir": "^6.5.0", "picomatch": "^4.0.4" } }, "sha512-wXR/dYpcqKmfWpEdZjiKJOwCNFndD0DMnrW/cYjVGttEkBfVgcLFHoNrlj47mjOVic9yyNu65alsgF4NQyTa2g=="],
 
-    "trianglify": ["trianglify@github:om3ga6400/trianglify#1ac3fcf", { "dependencies": { "chroma-js": "^3.2.0", "delaunator": "^5.1.0" } }, "om3ga6400-trianglify-1ac3fcf", "sha512-gAw1o+dKxVIJ6OtAFrRc1vjz1D7gZj01hGDl9ESVBCFF4kuMpWaADaRTbXyfk8m2Pq7Yz0HC6reT7jxKYpnirg=="],
+    "trianglify": ["trianglify@github:om3ga6400/trianglify#5444cfc", { "dependencies": { "chroma-js": "^3.2.0", "delaunator": "^5.1.0" } }, "om3ga6400-trianglify-5444cfc", "sha512-+XKqL2EaXSMoS0xUFAd1baRj89AXZjkUOZWiuOPr1K8doeaY6QmlPVO/K/nMejWAEyDttZ2iTe9LRtwAePtWnw=="],
 
     "trim-lines": ["trim-lines@3.0.1", "", {}, "sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg=="],
 
