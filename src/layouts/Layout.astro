@@ -63,7 +63,6 @@
         border-radius: var(--radius-inner);
         background: var(--glass-bg-soft);
         backdrop-filter: var(--glass-blur-link);
-        backdrop-filter: var(--glass-blur-link);
       }
 
       a:hover {
@@ -75,6 +74,12 @@
         position: fixed;
         inset: 0;
         z-index: -1;
+      }
+
+      #background canvas {
+        display: block;
+        width: 100%;
+        height: 100%;
       }
 
       #background::after {
@@ -92,6 +97,13 @@
 
       const bg = document.getElementById("background")!;
       const seed = crypto.randomUUID();
+      const canvas = document.createElement("canvas");
+
+      canvas.style.display = "block";
+      canvas.style.width = "100%";
+      canvas.style.height = "100%";
+
+      bg.append(canvas);
 
       const render = () => {
         const pattern = trianglify({
@@ -100,12 +112,20 @@
           seed,
         });
 
-        const canvas = document.createElement("canvas");
-        bg.replaceChildren(pattern.toCanvas(canvas));
+        pattern.toCanvas(canvas);
+
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
       };
 
       render();
-      window.addEventListener("resize", render);
+
+      let resizeTimeout: ReturnType<typeof setTimeout> | undefined;
+
+      window.addEventListener("resize", () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(render, 100);
+      });
     </script>
     <div class="card">
       <slot />
