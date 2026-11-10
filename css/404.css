@@ -1,0 +1,19 @@
+h1 {
+  font-size: 7.5rem;
+  line-height: 0.75;
+}
+
+p {
+  font-size: 1.25rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.links {
+  display: grid;
+}
+
+.links a {
+  width: 100%;
+  box-sizing: border-box;
+}
