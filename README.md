@@ -11,3 +11,7 @@
 #### Fonts
 
 - [Basically A Sans Serif](https://github.com/mental-design/basically-a-sans-serif)
+
+#### Soon
+
+- add fav videos, ex. https://www.youtube.com/watch?v=FqvK2EWQC00
